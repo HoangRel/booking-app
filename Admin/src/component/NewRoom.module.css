@@ -1,0 +1,48 @@
+.title {
+  margin-bottom: 36px;
+  color: #bbb9b9;
+  font-size: 1.3rem;
+}
+
+.form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 200px;
+  padding: 16px;
+}
+
+.form input:not(.rooms > input) {
+  margin-bottom: 16px;
+  width: 100%;
+  padding: 7px;
+  border: none;
+  border-bottom: 1px solid;
+  outline: none;
+}
+
+.form textarea {
+  margin-bottom: 16px;
+  width: 100%;
+  padding: 7px;
+  outline: none;
+}
+
+
+.rooms > textarea {
+  scroll-behavior: auto;
+}
+
+.endForm {
+  grid-column: 1/3;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.endForm > button {
+  color: white;
+  height: 70px;
+  width: 100px;
+  border: none;
+  background-color: green;
+}

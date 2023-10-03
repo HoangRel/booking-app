@@ -1,0 +1,35 @@
+.num {
+  display: block;
+  padding-top: 24px;
+  font-size: 28px;
+}
+
+.icon {
+  display: block;
+  text-align: end;
+}
+
+.icon > svg {
+  height: 36px;
+  border-radius: 5px;
+}
+
+.redCl > svg {
+  color: red;
+  background-color: rgba(255, 0, 0, 0.2);
+}
+
+.yellowCl > svg {
+  color: rgb(219, 219, 14);
+  background-color: rgba(225, 225, 12, 0.2);
+}
+
+.greenCl > svg {
+  color: green;
+  background-color: rgba(0, 128, 0, 0.2);
+}
+
+.purpleCl > svg {
+  color: purple;
+  background-color: rgba(128, 0, 128, 0.2);
+}

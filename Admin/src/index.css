@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  width: 1800px;
+  margin: 0 auto;
+  font-size: 16px;
+  color: #616060;
+}
+
+.icons {
+  color: blueviolet;
+}
+
+.DasSec {
+  display: grid;
+  grid-template-columns: 1fr 7fr;
+}
+
+.DasSec > h3 {
+  color: blueviolet;
+  text-align: center;
+}
+
+.DasSec p {
+  margin: 0;
+}
+
+.DasSec nav > a,
+#onLogout {
+  display: flex;
+  margin-top: 24px;
+  margin-left: 16px;
+  gap: 16px;
+  color: #616060;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#onLogout > p {
+  font-size: 1rem;
+}
+
+.onLogout {
+  margin-left: 100px;
+}
+
+.DasSec nav > p {
+  font-size: 0.8rem;
+  margin-top: 36px;
+}
+
+.div2 {
+  border-left: 1px solid #616060;
+  border-bottom: 1px solid #616060;
+}
+
+.div3 {
+  border-top: 1px solid #616060;
+}
+
+.mainDiv {
+  border-left: 1px solid #616060;
+  padding: 18px;
+}

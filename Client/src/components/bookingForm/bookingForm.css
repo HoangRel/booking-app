@@ -1,0 +1,102 @@
+.section {
+  max-width: 1024px;
+  margin-top: 36px;
+}
+
+.dates {
+  position: relative;
+}
+.datee {
+  padding-top: 24px;
+}
+
+.checkForm {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 36px;
+  justify-content: center;
+}
+
+.formInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.formInfo > label {
+  padding-top: 16px;
+}
+
+.formInfo > input {
+  height: 36px;
+  padding: 0 24px;
+}
+
+.select {
+  grid-column: 1/ 3;
+}
+
+.select > div {
+  margin-top: 24px;
+  display: flex;
+  gap: 58px;
+}
+
+.select > div > div {
+  display: flex;
+  gap: 42px;
+  align-items: center;
+}
+
+.select > div > div span {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.maxP {
+  font-size: 0.8rem;
+  margin-bottom: 8px;
+  color: #444;
+}
+
+.roomNum {
+  display: flex;
+  gap: 7px;
+}
+
+.roomNum label {
+  display: flex;
+  flex-direction: column;
+}
+
+.payment {
+  background-color: #8885852d;
+  height: 50px;
+  width: 300px;
+  border-radius: 4px;
+  padding-left: 7px;
+  font-size: 1.05rem;
+}
+
+.reserveBtn {
+  display: flex;
+  gap: 100px;
+  align-items: center;
+}
+
+.reserveBtn > button {
+  height: 65px;
+  width: 200px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  background-color: #0071c2;
+  color: white;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.section > h2 {
+  margin: 24px 0 12px;
+}

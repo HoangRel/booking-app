@@ -1,51 +1,48 @@
-
-
 # Hotel Management System
 
+## Introduction
+This project consists of a NodeJS backend server (running on port 8080) and two ReactJS frontend applications - one for users (running on port 3000) and one for administrators (running on port 3001).
 
-## Giới thiệu
-Dự án này bao gồm một server backend NodeJS (chạy ở cổng 8080) và hai ứng dụng frontend ReactJS - một dành cho người dùng (chạy ở cổng 3000) và một dành cho quản trị viên (chạy ở cổng 3001).
+## Components
 
-## Các thành phần
+1. **Backend Server:**
+   - Handles data-related operations under the database.
+   - Runs on Port 8080.
 
-1. **Server Backend:**
-   - Đảm nhiệm các thao tác liên quan đến dữ liệu dưới Database.
-   - Chạy ở Port 8080.
+2. **Client App (User):**
+   - ReactJS frontend for users.
+   - Allows users to view hotels, search, and book rooms.
+   - Runs on Port 3000.
 
-2. **Client App (Người Dùng):**
-   - Frontend ReactJS cho người dùng.
-   - Cho phép người dùng xem khách sạn, tìm kiếm, và đặt phòng.
-   - Chạy ở Port 3000.
+3. **Admin App:**
+   - ReactJS frontend for administrators.
+   - Provides administrative functions such as adding hotels, managing rooms, and transactions.
+   - Runs on Port 3001.
 
-3. **Admin App (Quản Trị Viên):**
-   - Frontend ReactJS cho quản trị viên.
-   - Cung cấp các chức năng quản trị như thêm khách sạn, quản lý phòng, và giao dịch.
-   - Chạy ở Port 3001.
+## Demo Links
+- [Client](https://hotels--rrr.web.app/)
 
-## Liên kết Demo
-- [Người Dùng](https://hotels--rrr.web.app/)
+## Usage Guide
 
-## Hướng dẫn khai thác
+### Installation
 
-### Cài đặt
+1. Clone the repository to your machine.
+2. Navigate to the `server` directory and run the command `npm install`.
+3. Navigate to the `client` and `admin` directories, then run the command `npm install` in each directory.
 
-1. Clone repository về máy của bạn.
-2. Di chuyển vào thư mục `server` và chạy lệnh `npm install`.
-3. Di chuyển vào thư mục `client` và `admin`, sau đó chạy lệnh `npm install` trong từng thư mục.
+### Running
 
-### Khởi chạy
+1. **Run Backend Server:**
+   - Navigate to the `server` directory.
+   - Run the command `npm start` to launch the server.
 
-1. **Khởi chạy Server Backend:**
-   - Di chuyển vào thư mục `server`.
-   - Chạy lệnh `npm start` để khởi động server.
+2. **Run Client App (User):**
+   - Navigate to the `client` directory.
+   - Run the command `npm start` to launch the user application.
 
-2. **Khởi chạy Client App (Người Dùng):**
-   - Di chuyển vào thư mục `client`.
-   - Chạy lệnh `npm start` để khởi động ứng dụng người dùng.
+3. **Run Admin App:**
+   - Navigate to the `admin` directory.
+   - Run the command `npm start` to launch the admin application.
 
-3. **Khởi chạy Admin App (Quản Trị Viên):**
-   - Di chuyển vào thư mục `admin`.
-   - Chạy lệnh `npm start` để khởi động ứng dụng quản trị viên.
-
-4. **Truy cập ứng dụng:**
-   - Mở trình duyệt và truy cập [http://localhost:3000](http://localhost:3000) cho ứng dụng người dùng, hoặc [http://localhost:3001](http://localhost:3001) cho ứng dụng quản trị viên.
+4. **Access the Applications:**
+   - Open a browser and go to [http://localhost:3000](http://localhost:3000) for the user application, or [http://localhost:3001](http://localhost:3001) for the admin application.
